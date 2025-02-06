@@ -1,0 +1,148 @@
+/* Styling form and resume sections */
+
+body {
+    
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0px;
+    padding: 20px;
+    line-height: 1.7;
+    background-color: white;
+}
+
+form {
+    margin: auto;
+    background-color: rgb(228, 242, 255);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    max-width: 750px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+    color: #215557;
+    text-align: center;
+    letter-spacing: 1.5px;
+}
+
+fieldset {
+    border: 2px solid skyblue;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: aliceblue;
+}
+
+legend {
+    font-weight: bold;
+    font-size: 1.1rem;
+    text-align: left;
+    padding: 0 10px;
+    color: #215557;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: 600;
+    font-size:16px;
+    color: black;
+
+}
+
+input,textarea {
+    margin-top: 4px;
+    padding: 8px;
+    width: calc(100% - 1px);
+    border: 1px solid skyblue;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+button {
+    display: block;
+    width: 100%;
+    background-color:  #268386;
+    color: whitesmoke;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    margin-top: 10px;
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+    padding: 12px;
+    
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 30%;
+    align-self: center;
+}
+
+button :hover {
+    color:  #215557;
+}
+
+
+
+#resume-display {
+    max-width: 750px;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid skyblue;
+    border-radius: 8px;
+    background-color: rgb(228, 242, 255);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+#resume-content {
+    background-color:aliceblue;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    font-size: 1.1rem;
+}
+
+/* Resume Title */
+#resume-content h3 {
+    color: #268386;
+    font-weight: bold;
+    font-size: 2.6rem;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#resume-content h4 {
+    color: #298083;
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+    border-bottom: 3px solid#c1baba;
+    padding-bottom: 5px;
+}
+
+
+/* Skills List */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    background-color: #268386;
+    color: white;
+    display: inline-block;
+    padding: 8px;
+    margin: 5px;
+    border-radius: 5px;
+    font-size: 0.95rem;
+    transition: background-color 0.3s ease;
+}
+
+ul li:hover {
+    background-color: #d8ca0d;
+}
+
+
